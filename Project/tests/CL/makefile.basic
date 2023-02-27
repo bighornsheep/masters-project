@@ -1,0 +1,2 @@
+main: B.cpp
+	g++ -O2 -g -std=c++11 -pthread -march=native B.cpp -o B -L./../../ -lmax -lntl -lmpfr -lgmp
